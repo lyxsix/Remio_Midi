@@ -44,9 +44,7 @@
 
 @interface AudioEngine : NSObject
 
-//old isPlaying
-@property (nonatomic, readonly) BOOL marimbaPlayerIsPlaying;
-@property (nonatomic, readonly) BOOL drumPlayerIsPlaying;
+
 
 //new main melody and sub melody isPlaying
 @property (nonatomic, readonly) BOOL mM1isPlaying;
@@ -58,9 +56,6 @@
 @property (nonatomic, readonly) BOOL sM4isPlaying;
 @property (nonatomic, readonly) BOOL sM5isPlaying;
 
-//old PlayerVolume
-@property (nonatomic) float marimbaPlayerVolume;    // 0.0 - 1.0
-@property (nonatomic) float drumPlayerVolume;       // 0.0 - 1.0
 
 //new PlayerVolume
 @property (nonatomic) float mM1PlayerVolume;       // 0.0 - 1.0
@@ -73,25 +68,13 @@
 @property (nonatomic) float sM5PlayerVolume;       // 0.0 - 1.0
 
 
-//old PlayerPan,it seen not need to create a new Player Pan
-@property (nonatomic) float marimbaPlayerPan;       // -1.0 - 1.0
-@property (nonatomic) float drumPlayerPan;          // -1.0 - 1.0
+
 
 @property (nonatomic) float outputVolume;           // 0.0 - 1.0
 
 @property (weak) id<AudioEngineDelegate> delegate;
 
-//old toggle and hit
-- (void)toggleMarimba;
-- (void)toggleDrums;
-- (void)hita0;
-- (void)hita1;
-- (void)hita2;
-- (void)hita3;
-- (void)hitb0;
-- (void)hitb1;
-- (void)hitb2;
-- (void)hitb3;
+
 
 // toogle new melody and touch/press  new effect
 - (void)toogleMM1;
@@ -103,9 +86,9 @@
 - (void)toogleSM4;
 - (void)toogleSM5;
 
-- (void)pressPE1;
-- (void)pressPE2;
-- (void)pressPE3;
+- (void)pressPE1:(float)volume;
+- (void)pressPE2:(float)volume;
+- (void)pressPE3:(float)volume;
 - (void)touchTE1;
 - (void)touchTE2;
 - (void)touchTE3;

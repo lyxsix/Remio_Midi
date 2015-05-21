@@ -94,10 +94,6 @@
 }
 
 
-
-
-
-
 #pragma mark- DFBlunoDelegate
 
 - (void)searchDevices{
@@ -112,6 +108,7 @@
         [self.blunoManager scan];
     }
 }
+
 -(void)didDiscoverDevice:(DFBlunoDevice*)dev
 {
     BOOL bRepeat = NO;
@@ -129,17 +126,18 @@
     }
     //    [self.tbDevices reloadData];
 }
+
 -(void)readyToCommunicate:(DFBlunoDevice*)dev
 {
     self.blunoDev = dev;
     _isConnect = YES;
-    
 }
+
 -(void)didDisconnectDevice:(DFBlunoDevice*)dev
 {
-    //    _statusLabel.hidden = NO;
     _isConnect = NO;
 }
+
 -(void)didWriteData:(DFBlunoDevice*)dev
 {
     
@@ -191,8 +189,6 @@
                 
                 [self.blunoManager connectToDevice:device];
             }
-            
-            //            [self setupUI];
             _connectView.hidden = YES;
             _mainView.hidden = NO;
             _menuView.hidden = NO;

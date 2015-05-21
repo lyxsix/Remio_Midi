@@ -40,6 +40,18 @@
 		DC53583C1B0DD1B100AC3D6D /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358361B0DD1B100AC3D6D /* BLEUtility.m */; };
 		DC53583D1B0DD1B100AC3D6D /* DFBlunoDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358381B0DD1B100AC3D6D /* DFBlunoDevice.m */; };
 		DC53583E1B0DD1B100AC3D6D /* DFBlunoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53583A1B0DD1B100AC3D6D /* DFBlunoManager.m */; };
+		DC5358451B0E2D9000AC3D6D /* AudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358441B0E2D9000AC3D6D /* AudioEngine.m */; };
+		DC5358501B0E412900AC3D6D /* bass_guitar1.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358461B0E412900AC3D6D /* bass_guitar1.wav */; };
+		DC5358511B0E412900AC3D6D /* bass_guitar2.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358471B0E412900AC3D6D /* bass_guitar2.wav */; };
+		DC5358521B0E412900AC3D6D /* bass_guitar3.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358481B0E412900AC3D6D /* bass_guitar3.wav */; };
+		DC5358531B0E412900AC3D6D /* bass_guitar4.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358491B0E412900AC3D6D /* bass_guitar4.wav */; };
+		DC5358541B0E412900AC3D6D /* bass_guitar5.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584A1B0E412900AC3D6D /* bass_guitar5.wav */; };
+		DC5358551B0E412900AC3D6D /* electric_guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584B1B0E412900AC3D6D /* electric_guitar.wav */; };
+		DC5358561B0E412900AC3D6D /* electric_guitar1.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584C1B0E412900AC3D6D /* electric_guitar1.wav */; };
+		DC5358571B0E412900AC3D6D /* electric_guitar2.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584D1B0E412900AC3D6D /* electric_guitar2.wav */; };
+		DC5358581B0E412900AC3D6D /* electric_guitar3.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584E1B0E412900AC3D6D /* electric_guitar3.wav */; };
+		DC5358591B0E412900AC3D6D /* electric_guitar4.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53584F1B0E412900AC3D6D /* electric_guitar4.wav */; };
+		DC53585D1B0E428000AC3D6D /* guitdo.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC53585C1B0E428000AC3D6D /* guitdo.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +109,19 @@
 		DC5358381B0DD1B100AC3D6D /* DFBlunoDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoDevice.m; sourceTree = "<group>"; };
 		DC5358391B0DD1B100AC3D6D /* DFBlunoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBlunoManager.h; sourceTree = "<group>"; };
 		DC53583A1B0DD1B100AC3D6D /* DFBlunoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoManager.m; sourceTree = "<group>"; };
+		DC5358431B0E2D9000AC3D6D /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		DC5358441B0E2D9000AC3D6D /* AudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngine.m; sourceTree = "<group>"; };
+		DC5358461B0E412900AC3D6D /* bass_guitar1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_guitar1.wav; sourceTree = "<group>"; };
+		DC5358471B0E412900AC3D6D /* bass_guitar2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_guitar2.wav; sourceTree = "<group>"; };
+		DC5358481B0E412900AC3D6D /* bass_guitar3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_guitar3.wav; sourceTree = "<group>"; };
+		DC5358491B0E412900AC3D6D /* bass_guitar4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_guitar4.wav; sourceTree = "<group>"; };
+		DC53584A1B0E412900AC3D6D /* bass_guitar5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bass_guitar5.wav; sourceTree = "<group>"; };
+		DC53584B1B0E412900AC3D6D /* electric_guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electric_guitar.wav; sourceTree = "<group>"; };
+		DC53584C1B0E412900AC3D6D /* electric_guitar1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electric_guitar1.wav; sourceTree = "<group>"; };
+		DC53584D1B0E412900AC3D6D /* electric_guitar2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electric_guitar2.wav; sourceTree = "<group>"; };
+		DC53584E1B0E412900AC3D6D /* electric_guitar3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electric_guitar3.wav; sourceTree = "<group>"; };
+		DC53584F1B0E412900AC3D6D /* electric_guitar4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electric_guitar4.wav; sourceTree = "<group>"; };
+		DC53585C1B0E428000AC3D6D /* guitdo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitdo.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +166,7 @@
 		DC5357D01B0DC19600AC3D6D /* Midi */ = {
 			isa = PBXGroup;
 			children = (
+				DC5358421B0E2A9B00AC3D6D /* AudioEngine */,
 				DC53582A1B0DCCE800AC3D6D /* Frameworks */,
 				DC5358311B0DD1B100AC3D6D /* Bluno */,
 				DC5358221B0DC6B000AC3D6D /* MHRotaryKnob */,
@@ -220,6 +246,17 @@
 		DC5358101B0DC31400AC3D6D /* music */ = {
 			isa = PBXGroup;
 			children = (
+				DC53585C1B0E428000AC3D6D /* guitdo.wav */,
+				DC5358461B0E412900AC3D6D /* bass_guitar1.wav */,
+				DC5358471B0E412900AC3D6D /* bass_guitar2.wav */,
+				DC5358481B0E412900AC3D6D /* bass_guitar3.wav */,
+				DC5358491B0E412900AC3D6D /* bass_guitar4.wav */,
+				DC53584A1B0E412900AC3D6D /* bass_guitar5.wav */,
+				DC53584B1B0E412900AC3D6D /* electric_guitar.wav */,
+				DC53584C1B0E412900AC3D6D /* electric_guitar1.wav */,
+				DC53584D1B0E412900AC3D6D /* electric_guitar2.wav */,
+				DC53584E1B0E412900AC3D6D /* electric_guitar3.wav */,
+				DC53584F1B0E412900AC3D6D /* electric_guitar4.wav */,
 				DC5358111B0DC31400AC3D6D /* 5songs */,
 				DC5358171B0DC31400AC3D6D /* Black Light.mp3 */,
 				DC5358181B0DC31400AC3D6D /* DPH.wav */,
@@ -280,6 +317,15 @@
 				DC5358361B0DD1B100AC3D6D /* BLEUtility.m */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		DC5358421B0E2A9B00AC3D6D /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358431B0E2D9000AC3D6D /* AudioEngine.h */,
+				DC5358441B0E2D9000AC3D6D /* AudioEngine.m */,
+			);
+			name = AudioEngine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,26 +409,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC53581A1B0DC31400AC3D6D /* 1.mp3 in Resources */,
+				DC5358541B0E412900AC3D6D /* bass_guitar5.wav in Resources */,
 				DC53580B1B0DC2F800AC3D6D /* midi1.png in Resources */,
 				DC53580C1B0DC2F800AC3D6D /* midi2.png in Resources */,
 				DC5358201B0DC31400AC3D6D /* DPH.wav in Resources */,
 				DC53581D1B0DC31400AC3D6D /* 4.mp3 in Resources */,
 				DC53581B1B0DC31400AC3D6D /* 2.mp3 in Resources */,
 				DC53580F1B0DC2F800AC3D6D /* midi4.png in Resources */,
+				DC5358531B0E412900AC3D6D /* bass_guitar4.wav in Resources */,
+				DC5358551B0E412900AC3D6D /* electric_guitar.wav in Resources */,
 				DC53580D1B0DC2F800AC3D6D /* midi3.png in Resources */,
 				DC5358291B0DC87000AC3D6D /* Knob@2x.png in Resources */,
 				DC53581F1B0DC31400AC3D6D /* Black Light.mp3 in Resources */,
 				DC5358211B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 in Resources */,
 				DC5358081B0DC2F800AC3D6D /* black light-01.png in Resources */,
+				DC5358591B0E412900AC3D6D /* electric_guitar4.wav in Resources */,
 				DC53581E1B0DC31400AC3D6D /* 5.mp3 in Resources */,
+				DC5358511B0E412900AC3D6D /* bass_guitar2.wav in Resources */,
+				DC53585D1B0E428000AC3D6D /* guitdo.wav in Resources */,
 				DC5357DD1B0DC19600AC3D6D /* Main.storyboard in Resources */,
 				DC53581C1B0DC31400AC3D6D /* 3.mp3 in Resources */,
+				DC5358581B0E412900AC3D6D /* electric_guitar3.wav in Resources */,
 				DC53580A1B0DC2F800AC3D6D /* ttu-01.png in Resources */,
 				DC53580E1B0DC2F800AC3D6D /* midi3yuan-01.png in Resources */,
 				DC5357E21B0DC19600AC3D6D /* LaunchScreen.xib in Resources */,
+				DC5358571B0E412900AC3D6D /* electric_guitar2.wav in Resources */,
+				DC5358521B0E412900AC3D6D /* bass_guitar3.wav in Resources */,
+				DC5358561B0E412900AC3D6D /* electric_guitar1.wav in Resources */,
 				DC5358281B0DC87000AC3D6D /* Knob.png in Resources */,
 				DC5358091B0DC2F800AC3D6D /* dph-01.png in Resources */,
 				DC5357DF1B0DC19600AC3D6D /* Images.xcassets in Resources */,
+				DC5358501B0E412900AC3D6D /* bass_guitar1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +460,7 @@
 				DC53583E1B0DD1B100AC3D6D /* DFBlunoManager.m in Sources */,
 				DC53583C1B0DD1B100AC3D6D /* BLEUtility.m in Sources */,
 				DC53583D1B0DD1B100AC3D6D /* DFBlunoDevice.m in Sources */,
+				DC5358451B0E2D9000AC3D6D /* AudioEngine.m in Sources */,
 				DC5357DA1B0DC19600AC3D6D /* ViewController.m in Sources */,
 				DC53583B1B0DD1B100AC3D6D /* BLEDevice.m in Sources */,
 				DC5358251B0DC6B000AC3D6D /* MHRotaryKnob.m in Sources */,

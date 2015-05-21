@@ -14,6 +14,32 @@
 		DC5357DF1B0DC19600AC3D6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5357DE1B0DC19600AC3D6D /* Images.xcassets */; };
 		DC5357E21B0DC19600AC3D6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5357E01B0DC19600AC3D6D /* LaunchScreen.xib */; };
 		DC5357EE1B0DC19600AC3D6D /* MidiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357ED1B0DC19600AC3D6D /* MidiTests.m */; };
+		DC5358081B0DC2F800AC3D6D /* black light-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5357FF1B0DC2F800AC3D6D /* black light-01.png */; };
+		DC5358091B0DC2F800AC3D6D /* dph-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358001B0DC2F800AC3D6D /* dph-01.png */; };
+		DC53580A1B0DC2F800AC3D6D /* ttu-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358011B0DC2F800AC3D6D /* ttu-01.png */; };
+		DC53580B1B0DC2F800AC3D6D /* midi1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358031B0DC2F800AC3D6D /* midi1.png */; };
+		DC53580C1B0DC2F800AC3D6D /* midi2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358041B0DC2F800AC3D6D /* midi2.png */; };
+		DC53580D1B0DC2F800AC3D6D /* midi3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358051B0DC2F800AC3D6D /* midi3.png */; };
+		DC53580E1B0DC2F800AC3D6D /* midi3yuan-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358061B0DC2F800AC3D6D /* midi3yuan-01.png */; };
+		DC53580F1B0DC2F800AC3D6D /* midi4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358071B0DC2F800AC3D6D /* midi4.png */; };
+		DC53581A1B0DC31400AC3D6D /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358121B0DC31400AC3D6D /* 1.mp3 */; };
+		DC53581B1B0DC31400AC3D6D /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358131B0DC31400AC3D6D /* 2.mp3 */; };
+		DC53581C1B0DC31400AC3D6D /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358141B0DC31400AC3D6D /* 3.mp3 */; };
+		DC53581D1B0DC31400AC3D6D /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358151B0DC31400AC3D6D /* 4.mp3 */; };
+		DC53581E1B0DC31400AC3D6D /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358161B0DC31400AC3D6D /* 5.mp3 */; };
+		DC53581F1B0DC31400AC3D6D /* Black Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358171B0DC31400AC3D6D /* Black Light.mp3 */; };
+		DC5358201B0DC31400AC3D6D /* DPH.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358181B0DC31400AC3D6D /* DPH.wav */; };
+		DC5358211B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358191B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 */; };
+		DC5358251B0DC6B000AC3D6D /* MHRotaryKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358241B0DC6B000AC3D6D /* MHRotaryKnob.m */; };
+		DC5358281B0DC87000AC3D6D /* Knob.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358261B0DC87000AC3D6D /* Knob.png */; };
+		DC5358291B0DC87000AC3D6D /* Knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358271B0DC87000AC3D6D /* Knob@2x.png */; };
+		DC53582C1B0DCCFB00AC3D6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582B1B0DCCFB00AC3D6D /* QuartzCore.framework */; };
+		DC53582E1B0DCFFD00AC3D6D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582D1B0DCFFD00AC3D6D /* CoreBluetooth.framework */; };
+		DC5358301B0DD00500AC3D6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582F1B0DD00500AC3D6D /* AVFoundation.framework */; };
+		DC53583B1B0DD1B100AC3D6D /* BLEDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358341B0DD1B100AC3D6D /* BLEDevice.m */; };
+		DC53583C1B0DD1B100AC3D6D /* BLEUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358361B0DD1B100AC3D6D /* BLEUtility.m */; };
+		DC53583D1B0DD1B100AC3D6D /* DFBlunoDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358381B0DD1B100AC3D6D /* DFBlunoDevice.m */; };
+		DC53583E1B0DD1B100AC3D6D /* DFBlunoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC53583A1B0DD1B100AC3D6D /* DFBlunoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +66,37 @@
 		DC5357E71B0DC19600AC3D6D /* MidiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5357EC1B0DC19600AC3D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5357ED1B0DC19600AC3D6D /* MidiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidiTests.m; sourceTree = "<group>"; };
+		DC5357FF1B0DC2F800AC3D6D /* black light-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black light-01.png"; sourceTree = "<group>"; };
+		DC5358001B0DC2F800AC3D6D /* dph-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dph-01.png"; sourceTree = "<group>"; };
+		DC5358011B0DC2F800AC3D6D /* ttu-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ttu-01.png"; sourceTree = "<group>"; };
+		DC5358031B0DC2F800AC3D6D /* midi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midi1.png; sourceTree = "<group>"; };
+		DC5358041B0DC2F800AC3D6D /* midi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midi2.png; sourceTree = "<group>"; };
+		DC5358051B0DC2F800AC3D6D /* midi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midi3.png; sourceTree = "<group>"; };
+		DC5358061B0DC2F800AC3D6D /* midi3yuan-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "midi3yuan-01.png"; sourceTree = "<group>"; };
+		DC5358071B0DC2F800AC3D6D /* midi4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midi4.png; sourceTree = "<group>"; };
+		DC5358121B0DC31400AC3D6D /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		DC5358131B0DC31400AC3D6D /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		DC5358141B0DC31400AC3D6D /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		DC5358151B0DC31400AC3D6D /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		DC5358161B0DC31400AC3D6D /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		DC5358171B0DC31400AC3D6D /* Black Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Black Light.mp3"; sourceTree = "<group>"; };
+		DC5358181B0DC31400AC3D6D /* DPH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = DPH.wav; sourceTree = "<group>"; };
+		DC5358191B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TTU (Too Turnt Up).mp3"; sourceTree = "<group>"; };
+		DC5358231B0DC6B000AC3D6D /* MHRotaryKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHRotaryKnob.h; sourceTree = "<group>"; };
+		DC5358241B0DC6B000AC3D6D /* MHRotaryKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHRotaryKnob.m; sourceTree = "<group>"; };
+		DC5358261B0DC87000AC3D6D /* Knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knob.png; sourceTree = "<group>"; };
+		DC5358271B0DC87000AC3D6D /* Knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Knob@2x.png"; sourceTree = "<group>"; };
+		DC53582B1B0DCCFB00AC3D6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC53582D1B0DCFFD00AC3D6D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DC53582F1B0DD00500AC3D6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC5358331B0DD1B100AC3D6D /* BLEDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDevice.h; sourceTree = "<group>"; };
+		DC5358341B0DD1B100AC3D6D /* BLEDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDevice.m; sourceTree = "<group>"; };
+		DC5358351B0DD1B100AC3D6D /* BLEUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEUtility.h; sourceTree = "<group>"; };
+		DC5358361B0DD1B100AC3D6D /* BLEUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEUtility.m; sourceTree = "<group>"; };
+		DC5358371B0DD1B100AC3D6D /* DFBlunoDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBlunoDevice.h; sourceTree = "<group>"; };
+		DC5358381B0DD1B100AC3D6D /* DFBlunoDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoDevice.m; sourceTree = "<group>"; };
+		DC5358391B0DD1B100AC3D6D /* DFBlunoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBlunoManager.h; sourceTree = "<group>"; };
+		DC53583A1B0DD1B100AC3D6D /* DFBlunoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBlunoManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5358301B0DD00500AC3D6D /* AVFoundation.framework in Frameworks */,
+				DC53582E1B0DCFFD00AC3D6D /* CoreBluetooth.framework in Frameworks */,
+				DC53582C1B0DCCFB00AC3D6D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +141,9 @@
 		DC5357D01B0DC19600AC3D6D /* Midi */ = {
 			isa = PBXGroup;
 			children = (
+				DC5358311B0DD1B100AC3D6D /* Bluno */,
+				DC53582A1B0DCCE800AC3D6D /* Frameworks */,
+				DC5358221B0DC6B000AC3D6D /* MHRotaryKnob */,
 				DC5357D51B0DC19600AC3D6D /* AppDelegate.h */,
 				DC5357D61B0DC19600AC3D6D /* AppDelegate.m */,
 				DC5357D81B0DC19600AC3D6D /* ViewController.h */,
@@ -96,6 +159,8 @@
 		DC5357D11B0DC19600AC3D6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC5358101B0DC31400AC3D6D /* music */,
+				DC5357F71B0DC26C00AC3D6D /* Image */,
 				DC5357D21B0DC19600AC3D6D /* Info.plist */,
 				DC5357D31B0DC19600AC3D6D /* main.m */,
 			);
@@ -117,6 +182,104 @@
 				DC5357EC1B0DC19600AC3D6D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC5357F71B0DC26C00AC3D6D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DC5357FE1B0DC2F800AC3D6D /* album cover */,
+				DC5358021B0DC2F800AC3D6D /* png pic */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		DC5357FE1B0DC2F800AC3D6D /* album cover */ = {
+			isa = PBXGroup;
+			children = (
+				DC5357FF1B0DC2F800AC3D6D /* black light-01.png */,
+				DC5358001B0DC2F800AC3D6D /* dph-01.png */,
+				DC5358011B0DC2F800AC3D6D /* ttu-01.png */,
+			);
+			path = "album cover";
+			sourceTree = "<group>";
+		};
+		DC5358021B0DC2F800AC3D6D /* png pic */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358261B0DC87000AC3D6D /* Knob.png */,
+				DC5358271B0DC87000AC3D6D /* Knob@2x.png */,
+				DC5358031B0DC2F800AC3D6D /* midi1.png */,
+				DC5358041B0DC2F800AC3D6D /* midi2.png */,
+				DC5358051B0DC2F800AC3D6D /* midi3.png */,
+				DC5358061B0DC2F800AC3D6D /* midi3yuan-01.png */,
+				DC5358071B0DC2F800AC3D6D /* midi4.png */,
+			);
+			path = "png pic";
+			sourceTree = "<group>";
+		};
+		DC5358101B0DC31400AC3D6D /* music */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358111B0DC31400AC3D6D /* 5songs */,
+				DC5358171B0DC31400AC3D6D /* Black Light.mp3 */,
+				DC5358181B0DC31400AC3D6D /* DPH.wav */,
+				DC5358191B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		DC5358111B0DC31400AC3D6D /* 5songs */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358121B0DC31400AC3D6D /* 1.mp3 */,
+				DC5358131B0DC31400AC3D6D /* 2.mp3 */,
+				DC5358141B0DC31400AC3D6D /* 3.mp3 */,
+				DC5358151B0DC31400AC3D6D /* 4.mp3 */,
+				DC5358161B0DC31400AC3D6D /* 5.mp3 */,
+			);
+			path = 5songs;
+			sourceTree = "<group>";
+		};
+		DC5358221B0DC6B000AC3D6D /* MHRotaryKnob */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358231B0DC6B000AC3D6D /* MHRotaryKnob.h */,
+				DC5358241B0DC6B000AC3D6D /* MHRotaryKnob.m */,
+			);
+			path = MHRotaryKnob;
+			sourceTree = "<group>";
+		};
+		DC53582A1B0DCCE800AC3D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC53582F1B0DD00500AC3D6D /* AVFoundation.framework */,
+				DC53582D1B0DCFFD00AC3D6D /* CoreBluetooth.framework */,
+				DC53582B1B0DCCFB00AC3D6D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC5358311B0DD1B100AC3D6D /* Bluno */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358321B0DD1B100AC3D6D /* Core */,
+				DC5358371B0DD1B100AC3D6D /* DFBlunoDevice.h */,
+				DC5358381B0DD1B100AC3D6D /* DFBlunoDevice.m */,
+				DC5358391B0DD1B100AC3D6D /* DFBlunoManager.h */,
+				DC53583A1B0DD1B100AC3D6D /* DFBlunoManager.m */,
+			);
+			path = Bluno;
+			sourceTree = "<group>";
+		};
+		DC5358321B0DD1B100AC3D6D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC5358331B0DD1B100AC3D6D /* BLEDevice.h */,
+				DC5358341B0DD1B100AC3D6D /* BLEDevice.m */,
+				DC5358351B0DD1B100AC3D6D /* BLEUtility.h */,
+				DC5358361B0DD1B100AC3D6D /* BLEUtility.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +362,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC53581A1B0DC31400AC3D6D /* 1.mp3 in Resources */,
+				DC53580B1B0DC2F800AC3D6D /* midi1.png in Resources */,
+				DC53580C1B0DC2F800AC3D6D /* midi2.png in Resources */,
+				DC5358201B0DC31400AC3D6D /* DPH.wav in Resources */,
+				DC53581D1B0DC31400AC3D6D /* 4.mp3 in Resources */,
+				DC53581B1B0DC31400AC3D6D /* 2.mp3 in Resources */,
+				DC53580F1B0DC2F800AC3D6D /* midi4.png in Resources */,
+				DC53580D1B0DC2F800AC3D6D /* midi3.png in Resources */,
+				DC5358291B0DC87000AC3D6D /* Knob@2x.png in Resources */,
+				DC53581F1B0DC31400AC3D6D /* Black Light.mp3 in Resources */,
+				DC5358211B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 in Resources */,
+				DC5358081B0DC2F800AC3D6D /* black light-01.png in Resources */,
+				DC53581E1B0DC31400AC3D6D /* 5.mp3 in Resources */,
 				DC5357DD1B0DC19600AC3D6D /* Main.storyboard in Resources */,
+				DC53581C1B0DC31400AC3D6D /* 3.mp3 in Resources */,
+				DC53580A1B0DC2F800AC3D6D /* ttu-01.png in Resources */,
+				DC53580E1B0DC2F800AC3D6D /* midi3yuan-01.png in Resources */,
 				DC5357E21B0DC19600AC3D6D /* LaunchScreen.xib in Resources */,
+				DC5358281B0DC87000AC3D6D /* Knob.png in Resources */,
+				DC5358091B0DC2F800AC3D6D /* dph-01.png in Resources */,
 				DC5357DF1B0DC19600AC3D6D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +400,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC53583E1B0DD1B100AC3D6D /* DFBlunoManager.m in Sources */,
+				DC53583C1B0DD1B100AC3D6D /* BLEUtility.m in Sources */,
+				DC53583D1B0DD1B100AC3D6D /* DFBlunoDevice.m in Sources */,
 				DC5357DA1B0DC19600AC3D6D /* ViewController.m in Sources */,
+				DC53583B1B0DD1B100AC3D6D /* BLEDevice.m in Sources */,
+				DC5358251B0DC6B000AC3D6D /* MHRotaryKnob.m in Sources */,
 				DC5357D71B0DC19600AC3D6D /* AppDelegate.m in Sources */,
 				DC5357D41B0DC19600AC3D6D /* main.m in Sources */,
 			);
@@ -348,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Midi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Midi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

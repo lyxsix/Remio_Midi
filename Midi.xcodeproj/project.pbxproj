@@ -141,8 +141,8 @@
 		DC5357D01B0DC19600AC3D6D /* Midi */ = {
 			isa = PBXGroup;
 			children = (
-				DC5358311B0DD1B100AC3D6D /* Bluno */,
 				DC53582A1B0DCCE800AC3D6D /* Frameworks */,
+				DC5358311B0DD1B100AC3D6D /* Bluno */,
 				DC5358221B0DC6B000AC3D6D /* MHRotaryKnob */,
 				DC5357D51B0DC19600AC3D6D /* AppDelegate.h */,
 				DC5357D61B0DC19600AC3D6D /* AppDelegate.m */,

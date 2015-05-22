@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2361E31B0F66C700BC853D /* drumLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC2361E11B0F66C700BC853D /* drumLoop.caf */; };
+		DC2361E41B0F66C700BC853D /* marimbaLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC2361E21B0F66C700BC853D /* marimbaLoop.caf */; };
 		DC5357D41B0DC19600AC3D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D31B0DC19600AC3D6D /* main.m */; };
 		DC5357D71B0DC19600AC3D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D61B0DC19600AC3D6D /* AppDelegate.m */; };
 		DC5357DA1B0DC19600AC3D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D91B0DC19600AC3D6D /* ViewController.m */; };
@@ -65,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC2361E11B0F66C700BC853D /* drumLoop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumLoop.caf; sourceTree = "<group>"; };
+		DC2361E21B0F66C700BC853D /* marimbaLoop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = marimbaLoop.caf; sourceTree = "<group>"; };
 		DC5357CE1B0DC19600AC3D6D /* Midi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5357D21B0DC19600AC3D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5357D31B0DC19600AC3D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -246,6 +250,8 @@
 		DC5358101B0DC31400AC3D6D /* music */ = {
 			isa = PBXGroup;
 			children = (
+				DC2361E11B0F66C700BC853D /* drumLoop.caf */,
+				DC2361E21B0F66C700BC853D /* marimbaLoop.caf */,
 				DC53585C1B0E428000AC3D6D /* guitdo.wav */,
 				DC5358461B0E412900AC3D6D /* bass_guitar1.wav */,
 				DC5358471B0E412900AC3D6D /* bass_guitar2.wav */,
@@ -428,12 +434,14 @@
 				DC5358511B0E412900AC3D6D /* bass_guitar2.wav in Resources */,
 				DC53585D1B0E428000AC3D6D /* guitdo.wav in Resources */,
 				DC5357DD1B0DC19600AC3D6D /* Main.storyboard in Resources */,
+				DC2361E41B0F66C700BC853D /* marimbaLoop.caf in Resources */,
 				DC53581C1B0DC31400AC3D6D /* 3.mp3 in Resources */,
 				DC5358581B0E412900AC3D6D /* electric_guitar3.wav in Resources */,
 				DC53580A1B0DC2F800AC3D6D /* ttu-01.png in Resources */,
 				DC53580E1B0DC2F800AC3D6D /* midi3yuan-01.png in Resources */,
 				DC5357E21B0DC19600AC3D6D /* LaunchScreen.xib in Resources */,
 				DC5358571B0E412900AC3D6D /* electric_guitar2.wav in Resources */,
+				DC2361E31B0F66C700BC853D /* drumLoop.caf in Resources */,
 				DC5358521B0E412900AC3D6D /* bass_guitar3.wav in Resources */,
 				DC5358561B0E412900AC3D6D /* electric_guitar1.wav in Resources */,
 				DC5358281B0DC87000AC3D6D /* Knob.png in Resources */,
@@ -662,6 +670,7 @@
 				DC5357F31B0DC19600AC3D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC5357F41B0DC19600AC3D6D /* Build configuration list for PBXNativeTarget "MidiTests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +679,7 @@
 				DC5357F61B0DC19600AC3D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

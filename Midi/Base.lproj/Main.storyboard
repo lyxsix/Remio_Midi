@@ -60,19 +60,8 @@
                                         <rect key="frame" x="60" y="136" width="200" height="200"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYm-If-SOc">
-                                        <rect key="frame" x="174" y="478" width="46" height="30"/>
-                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="9"/>
-                                        <state key="normal" title="DPH">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="playMT3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uGP-iD-gk2"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAP-aZ-OeY">
-                                        <rect key="frame" x="99" y="478" width="46" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAP-aZ-OeY">
+                                        <rect key="frame" x="93" y="436" width="60" height="70"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="9"/>
                                         <state key="normal" title="TTU">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -82,8 +71,8 @@
                                             <action selector="playMT2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="g2U-4T-o0A"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kG7-PF-Vmw">
-                                        <rect key="frame" x="21" y="478" width="53" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kG7-PF-Vmw">
+                                        <rect key="frame" x="16" y="436" width="60" height="70"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="9"/>
                                         <state key="normal" title="Black Light">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -91,6 +80,17 @@
                                         </state>
                                         <connections>
                                             <action selector="playMT1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xGh-E6-UPz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYm-If-SOc">
+                                        <rect key="frame" x="166" y="436" width="60" height="70"/>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="9"/>
+                                        <state key="normal" title="DPH">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playMT3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="uGP-iD-gk2"/>
                                         </connections>
                                     </button>
                                 </subviews>

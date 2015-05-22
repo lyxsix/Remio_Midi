@@ -292,21 +292,21 @@
     NSString *audioFile;
     NSString *audioName;
     if ([audioID isEqual:@"mM1"]){
-        audioName = @"guitdo.wav";
+        audioName = @"drumLoop.caf";
     }else if([audioID isEqual:@"mM2"]){
-        audioName = @"guitdo.wav";
+        audioName = @"marimbaLoop.caf";
     }else if([audioID isEqual:@"mM3"]){
-        audioName = @"guitdo.wav";
+        audioName = @"bass_guitar3.wav";
     }else if([audioID isEqual:@"sM1"]){
-        audioName = @"guitdo.wav";
+        audioName = @"bass_guitar4.wav";
     }else if([audioID isEqual:@"sM2"]){
-        audioName = @"guitdo.wav";
+        audioName = @"bass_guitar5.wav";
     }else if([audioID isEqual:@"sM3"]){
-        audioName = @"guitdo.wav";
+        audioName = @"electric_guitar.wav";
     }else if([audioID isEqual:@"sM4"]){
-        audioName = @"guitdo.wav";
+        audioName = @"electric_guitar1.wav";
     }else if([audioID isEqual:@"sM5"]){
-        audioName = @"guitdo.wav";
+        audioName = @"electric_guitar2.wav";
     }else if([audioID isEqual:@"pE1"]){
         audioName = @"bass_guitar1.wav";
     }else if([audioID isEqual:@"pE2"]){
@@ -487,6 +487,7 @@
         [_mM2Player play];
     } else
         [_mM2Player stop];
+
 }
 
 - (void)toogleMM3
@@ -703,22 +704,22 @@
 
 
 //new ...
-- (BOOL)isMM1isPlaying
+- (BOOL)mM1isPlaying
 {
     return _mM1Player.isPlaying;
 }
 
-- (BOOL)isMM2isPlaying
+- (BOOL)mM2isPlaying
 {
     return _mM2Player.isPlaying;
 }
 
-- (BOOL)isMM3isPlaying
+- (BOOL)mM3isPlaying
 {
     return _mM3Player.isPlaying;
 }
 
-- (BOOL)isSM1isPlaying
+- (BOOL)sM1isPlaying
 {
     return _sM1Player.isPlaying;
 }
@@ -728,17 +729,17 @@
     return _sM2Player.isPlaying;
 }
 
-- (BOOL)isSM3isPlaying
+- (BOOL)sM3isPlaying
 {
     return _sM3Player.isPlaying;
 }
 
-- (BOOL)isSM4isPlaying
+- (BOOL)sM4isPlaying
 {
     return _sM4Player.isPlaying;
 }
 
-- (BOOL)isSM5isPlaying
+- (BOOL)sM5isPlaying
 {
     return _sM5Player.isPlaying;
 }

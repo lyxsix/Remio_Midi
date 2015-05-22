@@ -47,35 +47,35 @@
 
 - (IBAction)playMT1:(id)sender {
     [engine toogleMM1];
-    [_albumImage setImage:[UIImage imageNamed:@"black light-01.png"]];
-    if (engine.mM2isPlaying) {
-        [engine.mM2Player stop];
-    }
-    if (engine.mM3isPlaying) {
-        [engine.mM3Player stop];
-    }
+    [_albumImage setImage:[UIImage imageNamed:@"black light-01"]];
+//    if (engine.mM2isPlaying) {
+//        [engine.mM2Player stop];
+//    }
+//    if (engine.mM3isPlaying) {
+//        [engine.mM3Player stop];
+//    }
 }
 
 - (IBAction)playMT2:(id)sender {
-    [_albumImage setImage:[UIImage imageNamed:@"ttu-01.png"]];
+    [_albumImage setImage:[UIImage imageNamed:@"ttu-01"]];
     [engine toogleMM2];
-    if (engine.mM1isPlaying) {
-        [engine.mM1Player stop];
-    }
-    if (engine.mM3isPlaying) {
-        [engine.mM3Player stop];
-    }
+//    if (engine.mM1isPlaying) {
+//        [engine.mM1Player stop];
+//    }
+//    if (engine.mM3isPlaying) {
+//        [engine.mM3Player stop];
+//    }
 }
 
 - (IBAction)playMT3:(id)sender {
-    [_albumImage setImage:[UIImage imageNamed:@"dph-01.png"]];
+    [_albumImage setImage:[UIImage imageNamed:@"dph-01"]];
     [engine toogleMM3];
-    if (engine.mM1isPlaying) {
-        [engine.mM1Player stop];
-    }
-    if (engine.mM2isPlaying) {
-        [engine.mM2Player stop];
-    }
+//    if (engine.mM1isPlaying) {
+//        [engine.mM1Player stop];
+//    }
+//    if (engine.mM2isPlaying) {
+//        [engine.mM2Player stop];
+//    }
 }
 
 - (IBAction)toMTView:(id)sender {
@@ -243,6 +243,7 @@
 {
     engine = [[AudioEngine alloc] init];
     engine.delegate = self;
+    
     engine.mM1PlayerVolume = 1.0;
     engine.mM2PlayerVolume = 1.0;
     engine.mM3PlayerVolume = 1.0;

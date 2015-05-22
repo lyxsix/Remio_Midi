@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		DC2361E31B0F66C700BC853D /* drumLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC2361E11B0F66C700BC853D /* drumLoop.caf */; };
 		DC2361E41B0F66C700BC853D /* marimbaLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC2361E21B0F66C700BC853D /* marimbaLoop.caf */; };
+		DC2361E81B0F6C1A00BC853D /* zz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2361E71B0F6C1A00BC853D /* zz@2x.png */; };
+		DC2361F31B0F6D5300BC853D /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361EA1B0F6D5300BC853D /* 1.mp3 */; };
+		DC2361F41B0F6D5300BC853D /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361EB1B0F6D5300BC853D /* 2.mp3 */; };
+		DC2361F51B0F6D5300BC853D /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361EC1B0F6D5300BC853D /* 3.mp3 */; };
+		DC2361F61B0F6D5300BC853D /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361ED1B0F6D5300BC853D /* 4.mp3 */; };
+		DC2361F71B0F6D5300BC853D /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361EE1B0F6D5300BC853D /* 5.mp3 */; };
+		DC2361F81B0F6D5300BC853D /* m1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361F01B0F6D5300BC853D /* m1.mp3 */; };
+		DC2361F91B0F6D5300BC853D /* m2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361F11B0F6D5300BC853D /* m2.mp3 */; };
+		DC2361FA1B0F6D5300BC853D /* m3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC2361F21B0F6D5300BC853D /* m3.mp3 */; };
 		DC5357D41B0DC19600AC3D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D31B0DC19600AC3D6D /* main.m */; };
 		DC5357D71B0DC19600AC3D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D61B0DC19600AC3D6D /* AppDelegate.m */; };
 		DC5357DA1B0DC19600AC3D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5357D91B0DC19600AC3D6D /* ViewController.m */; };
@@ -33,8 +42,6 @@
 		DC5358201B0DC31400AC3D6D /* DPH.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC5358181B0DC31400AC3D6D /* DPH.wav */; };
 		DC5358211B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC5358191B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 */; };
 		DC5358251B0DC6B000AC3D6D /* MHRotaryKnob.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5358241B0DC6B000AC3D6D /* MHRotaryKnob.m */; };
-		DC5358281B0DC87000AC3D6D /* Knob.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358261B0DC87000AC3D6D /* Knob.png */; };
-		DC5358291B0DC87000AC3D6D /* Knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5358271B0DC87000AC3D6D /* Knob@2x.png */; };
 		DC53582C1B0DCCFB00AC3D6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582B1B0DCCFB00AC3D6D /* QuartzCore.framework */; };
 		DC53582E1B0DCFFD00AC3D6D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582D1B0DCFFD00AC3D6D /* CoreBluetooth.framework */; };
 		DC5358301B0DD00500AC3D6D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC53582F1B0DD00500AC3D6D /* AVFoundation.framework */; };
@@ -69,6 +76,15 @@
 /* Begin PBXFileReference section */
 		DC2361E11B0F66C700BC853D /* drumLoop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumLoop.caf; sourceTree = "<group>"; };
 		DC2361E21B0F66C700BC853D /* marimbaLoop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = marimbaLoop.caf; sourceTree = "<group>"; };
+		DC2361E71B0F6C1A00BC853D /* zz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zz@2x.png"; sourceTree = "<group>"; };
+		DC2361EA1B0F6D5300BC853D /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		DC2361EB1B0F6D5300BC853D /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		DC2361EC1B0F6D5300BC853D /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		DC2361ED1B0F6D5300BC853D /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		DC2361EE1B0F6D5300BC853D /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		DC2361F01B0F6D5300BC853D /* m1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m1.mp3; sourceTree = "<group>"; };
+		DC2361F11B0F6D5300BC853D /* m2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m2.mp3; sourceTree = "<group>"; };
+		DC2361F21B0F6D5300BC853D /* m3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m3.mp3; sourceTree = "<group>"; };
 		DC5357CE1B0DC19600AC3D6D /* Midi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5357D21B0DC19600AC3D6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5357D31B0DC19600AC3D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,8 +116,6 @@
 		DC5358191B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TTU (Too Turnt Up).mp3"; sourceTree = "<group>"; };
 		DC5358231B0DC6B000AC3D6D /* MHRotaryKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHRotaryKnob.h; sourceTree = "<group>"; };
 		DC5358241B0DC6B000AC3D6D /* MHRotaryKnob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHRotaryKnob.m; sourceTree = "<group>"; };
-		DC5358261B0DC87000AC3D6D /* Knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knob.png; sourceTree = "<group>"; };
-		DC5358271B0DC87000AC3D6D /* Knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Knob@2x.png"; sourceTree = "<group>"; };
 		DC53582B1B0DCCFB00AC3D6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DC53582D1B0DCFFD00AC3D6D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		DC53582F1B0DD00500AC3D6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -149,6 +163,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC2361E91B0F6D5300BC853D /* 圆盘 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2361EA1B0F6D5300BC853D /* 1.mp3 */,
+				DC2361EB1B0F6D5300BC853D /* 2.mp3 */,
+				DC2361EC1B0F6D5300BC853D /* 3.mp3 */,
+				DC2361ED1B0F6D5300BC853D /* 4.mp3 */,
+				DC2361EE1B0F6D5300BC853D /* 5.mp3 */,
+			);
+			path = "圆盘";
+			sourceTree = "<group>";
+		};
+		DC2361EF1B0F6D5300BC853D /* 主曲 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2361F01B0F6D5300BC853D /* m1.mp3 */,
+				DC2361F11B0F6D5300BC853D /* m2.mp3 */,
+				DC2361F21B0F6D5300BC853D /* m3.mp3 */,
+			);
+			path = "主曲";
+			sourceTree = "<group>";
+		};
 		DC5357C51B0DC19600AC3D6D = {
 			isa = PBXGroup;
 			children = (
@@ -236,8 +272,7 @@
 		DC5358021B0DC2F800AC3D6D /* png pic */ = {
 			isa = PBXGroup;
 			children = (
-				DC5358261B0DC87000AC3D6D /* Knob.png */,
-				DC5358271B0DC87000AC3D6D /* Knob@2x.png */,
+				DC2361E71B0F6C1A00BC853D /* zz@2x.png */,
 				DC5358031B0DC2F800AC3D6D /* midi1.png */,
 				DC5358041B0DC2F800AC3D6D /* midi2.png */,
 				DC5358051B0DC2F800AC3D6D /* midi3.png */,
@@ -250,6 +285,8 @@
 		DC5358101B0DC31400AC3D6D /* music */ = {
 			isa = PBXGroup;
 			children = (
+				DC2361E91B0F6D5300BC853D /* 圆盘 */,
+				DC2361EF1B0F6D5300BC853D /* 主曲 */,
 				DC2361E11B0F66C700BC853D /* drumLoop.caf */,
 				DC2361E21B0F66C700BC853D /* marimbaLoop.caf */,
 				DC53585C1B0E428000AC3D6D /* guitdo.wav */,
@@ -418,14 +455,18 @@
 				DC5358541B0E412900AC3D6D /* bass_guitar5.wav in Resources */,
 				DC53580B1B0DC2F800AC3D6D /* midi1.png in Resources */,
 				DC53580C1B0DC2F800AC3D6D /* midi2.png in Resources */,
+				DC2361E81B0F6C1A00BC853D /* zz@2x.png in Resources */,
+				DC2361F61B0F6D5300BC853D /* 4.mp3 in Resources */,
 				DC5358201B0DC31400AC3D6D /* DPH.wav in Resources */,
 				DC53581D1B0DC31400AC3D6D /* 4.mp3 in Resources */,
 				DC53581B1B0DC31400AC3D6D /* 2.mp3 in Resources */,
 				DC53580F1B0DC2F800AC3D6D /* midi4.png in Resources */,
 				DC5358531B0E412900AC3D6D /* bass_guitar4.wav in Resources */,
+				DC2361F31B0F6D5300BC853D /* 1.mp3 in Resources */,
 				DC5358551B0E412900AC3D6D /* electric_guitar.wav in Resources */,
+				DC2361F81B0F6D5300BC853D /* m1.mp3 in Resources */,
+				DC2361F41B0F6D5300BC853D /* 2.mp3 in Resources */,
 				DC53580D1B0DC2F800AC3D6D /* midi3.png in Resources */,
-				DC5358291B0DC87000AC3D6D /* Knob@2x.png in Resources */,
 				DC53581F1B0DC31400AC3D6D /* Black Light.mp3 in Resources */,
 				DC5358211B0DC31400AC3D6D /* TTU (Too Turnt Up).mp3 in Resources */,
 				DC5358081B0DC2F800AC3D6D /* black light-01.png in Resources */,
@@ -437,14 +478,17 @@
 				DC2361E41B0F66C700BC853D /* marimbaLoop.caf in Resources */,
 				DC53581C1B0DC31400AC3D6D /* 3.mp3 in Resources */,
 				DC5358581B0E412900AC3D6D /* electric_guitar3.wav in Resources */,
+				DC2361FA1B0F6D5300BC853D /* m3.mp3 in Resources */,
 				DC53580A1B0DC2F800AC3D6D /* ttu-01.png in Resources */,
 				DC53580E1B0DC2F800AC3D6D /* midi3yuan-01.png in Resources */,
+				DC2361F71B0F6D5300BC853D /* 5.mp3 in Resources */,
 				DC5357E21B0DC19600AC3D6D /* LaunchScreen.xib in Resources */,
 				DC5358571B0E412900AC3D6D /* electric_guitar2.wav in Resources */,
 				DC2361E31B0F66C700BC853D /* drumLoop.caf in Resources */,
+				DC2361F51B0F6D5300BC853D /* 3.mp3 in Resources */,
 				DC5358521B0E412900AC3D6D /* bass_guitar3.wav in Resources */,
+				DC2361F91B0F6D5300BC853D /* m2.mp3 in Resources */,
 				DC5358561B0E412900AC3D6D /* electric_guitar1.wav in Resources */,
-				DC5358281B0DC87000AC3D6D /* Knob.png in Resources */,
 				DC5358091B0DC2F800AC3D6D /* dph-01.png in Resources */,
 				DC5357DF1B0DC19600AC3D6D /* Images.xcassets in Resources */,
 				DC5358501B0E412900AC3D6D /* bass_guitar1.wav in Resources */,

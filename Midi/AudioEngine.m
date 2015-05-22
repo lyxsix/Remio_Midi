@@ -292,21 +292,21 @@
     NSString *audioFile;
     NSString *audioName;
     if ([audioID isEqual:@"mM1"]){
-        audioName = @"drumLoop.caf";
+        audioName = @"m1.mp3";
     }else if([audioID isEqual:@"mM2"]){
-        audioName = @"marimbaLoop.caf";
+        audioName = @"m2.mp3";
     }else if([audioID isEqual:@"mM3"]){
-        audioName = @"bass_guitar3.wav";
+        audioName = @"m3.mp3";
     }else if([audioID isEqual:@"sM1"]){
-        audioName = @"bass_guitar4.wav";
+        audioName = @"1.mp3";
     }else if([audioID isEqual:@"sM2"]){
-        audioName = @"bass_guitar5.wav";
+        audioName = @"2.mp3";
     }else if([audioID isEqual:@"sM3"]){
-        audioName = @"electric_guitar.wav";
+        audioName = @"3.mp3";
     }else if([audioID isEqual:@"sM4"]){
-        audioName = @"electric_guitar1.wav";
+        audioName = @"4.mp3";
     }else if([audioID isEqual:@"sM5"]){
-        audioName = @"electric_guitar2.wav";
+        audioName = @"5.mp3";
     }else if([audioID isEqual:@"pE1"]){
         audioName = @"bass_guitar1.wav";
     }else if([audioID isEqual:@"pE2"]){

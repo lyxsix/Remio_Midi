@@ -128,6 +128,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="albumImage" destination="RlL-WU-ia1" id="5GQ-Lb-BQT"/>
                         <outlet property="connectView" destination="aZg-Uq-wEn" id="Btc-Ws-2sp"/>
                         <outlet property="effectsView" destination="i1O-N4-LNr" id="dyu-5C-Ngj"/>
                         <outlet property="mainView" destination="0Tx-P8-zli" id="tbK-6F-lWq"/>

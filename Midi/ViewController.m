@@ -48,34 +48,34 @@
 - (IBAction)playMT1:(id)sender {
     [engine toogleMM1];
     [_albumImage setImage:[UIImage imageNamed:@"black light-01"]];
-//    if (engine.mM2isPlaying) {
-//        [engine.mM2Player stop];
-//    }
-//    if (engine.mM3isPlaying) {
-//        [engine.mM3Player stop];
-//    }
+    if (engine.mM2isPlaying) {
+        [engine.mM2Player stop];
+    }
+    if (engine.mM3isPlaying) {
+        [engine.mM3Player stop];
+    }
 }
 
 - (IBAction)playMT2:(id)sender {
     [_albumImage setImage:[UIImage imageNamed:@"ttu-01"]];
     [engine toogleMM2];
-//    if (engine.mM1isPlaying) {
-//        [engine.mM1Player stop];
-//    }
-//    if (engine.mM3isPlaying) {
-//        [engine.mM3Player stop];
-//    }
+    if (engine.mM1isPlaying) {
+        [engine.mM1Player stop];
+    }
+    if (engine.mM3isPlaying) {
+        [engine.mM3Player stop];
+    }
 }
 
 - (IBAction)playMT3:(id)sender {
     [_albumImage setImage:[UIImage imageNamed:@"dph-01"]];
     [engine toogleMM3];
-//    if (engine.mM1isPlaying) {
-//        [engine.mM1Player stop];
-//    }
-//    if (engine.mM2isPlaying) {
-//        [engine.mM2Player stop];
-//    }
+    if (engine.mM1isPlaying) {
+        [engine.mM1Player stop];
+    }
+    if (engine.mM2isPlaying) {
+        [engine.mM2Player stop];
+    }
 }
 
 - (IBAction)toMTView:(id)sender {
@@ -108,7 +108,8 @@
     self.rotaryKnob.defaultValue = self.rotaryKnob.value;
     self.rotaryKnob.resetsToDefault = YES;
     self.rotaryKnob.backgroundColor = [UIColor clearColor];
-    [self.rotaryKnob setKnobImage:[UIImage imageNamed:@"Knob"] forState:UIControlStateNormal];
+    [self.rotaryKnob setKnobImage:[UIImage imageNamed:@"zz"] forState:UIControlStateNormal];
+    [self.rotaryKnob setAlpha:0.8];
     self.rotaryKnob.knobImageCenter = CGPointMake(100, 100);
     [self.rotaryKnob addTarget:self action:@selector(rotaryKnobDidChange) forControlEvents:UIControlEventValueChanged];
     self.rotaryKnob.enabled = false;

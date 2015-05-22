@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 #import "MHRotaryKnob.h"
+#import "AudioEngine.h"
 
-@interface ViewController ()
+@interface ViewController ()<AudioEngineDelegate>
 {
     BOOL _isConnect;
     NSString* _msg;
@@ -34,6 +35,8 @@
     _effectsView.hidden = YES;
     
     [self initMyknob];
+    [self initAudio];
+    
     
 }
 
@@ -75,9 +78,9 @@
 - (void)initMyknob{
     self.rotaryKnob.interactionStyle = MHRotaryKnobInteractionStyleRotating;
     self.rotaryKnob.scalingFactor = 1.5;
-    self.rotaryKnob.maximumValue = 999;
+    self.rotaryKnob.maximumValue = 270;
     self.rotaryKnob.minimumValue = 0;
-    self.rotaryKnob.value = 499;
+    self.rotaryKnob.value = 0;
     self.rotaryKnob.defaultValue = self.rotaryKnob.value;
     self.rotaryKnob.resetsToDefault = YES;
     self.rotaryKnob.backgroundColor = [UIColor clearColor];
@@ -158,6 +161,15 @@
 //            NSLog(@"_audioPlayer.volume %f",_audioPlayer.volume);
 //        }
 //    }
+    
+    NSRange rangeAg;
+    rangeAg=[_msg rangeOfString:@"ag"];
+    if((rangeAg.location+4)!=NSNotFound){
+        NSString *strAg = [_msg substringWithRange:NSMakeRange(rangeAg.location+2,rangeAg.location+4)];
+        float floatAg = [strAg floatValue];
+        NSLog(@"floatA is %f",floatAg);
+        [engine rotaryMM:floatAg];
+    }
 }
 
 - (IBAction)connectAction:(id)sender {
@@ -192,7 +204,30 @@
             _connectView.hidden = YES;
             _mainView.hidden = NO;
             _menuView.hidden = NO;
+            
         }
     }
 }
+
+#pragma mark AudioEngine
+- (void)initAudio
+{
+    engine = [[AudioEngine alloc] init];
+    engine.delegate = self;
+    engine.mM1PlayerVolume = 1.0;
+    engine.mM2PlayerVolume = 1.0;
+    engine.mM3PlayerVolume = 1.0;
+    engine.sM1PlayerVolume = 0.0;
+    engine.sM2PlayerVolume = 0.0;
+    engine.sM3PlayerVolume = 0.0;
+    engine.sM4PlayerVolume = 0.0;
+    engine.sM5PlayerVolume = 0.0;
+    
+    [engine toogleSM1];
+    [engine toogleSM2];
+    [engine toogleSM3];
+    [engine toogleSM4];
+    [engine toogleSM5];
+}
+
 @end

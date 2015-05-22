@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "DFBlunoManager.h"
+@class AudioEngine;
 
 @interface ViewController : UIViewController<DFBlunoDelegate>
+{
+    AudioEngine *engine;
+}
 @property(strong, nonatomic) DFBlunoManager* blunoManager;
 @property(strong, nonatomic) DFBlunoDevice* blunoDev;
 @property(strong, nonatomic) NSMutableArray* aryDevices;

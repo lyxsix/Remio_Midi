@@ -106,6 +106,6 @@
 - (void)pausePlayingRecordedFile;
 - (void)stopPlayingRecordedFile;
 
-
+- (void)rotaryMM:(float)agVal;
 
 @end

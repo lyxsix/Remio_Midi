@@ -296,7 +296,7 @@
     }else if([audioID isEqual:@"mM2"]){
         audioName = @"DPH.wav";
     }else if([audioID isEqual:@"mM3"]){
-        audioName = @"TTU(Too Turnt Up).mp3";
+        audioName = @"TTU (Too Turnt Up).mp3";
     }else if([audioID isEqual:@"sM1"]){
         audioName = @"1.mp3";
     }else if([audioID isEqual:@"sM2"]){
@@ -839,7 +839,25 @@
 }
 
 
+//Rotary MM(Music melody)
 
+- (void)rotaryMM:(float)agVal
+{
+    float rNum = fmodf(agVal, 60.0);
+    float playID = floorf(agVal/60.0);
+    float percent = (30.0-rNum)/30.0;
+    if (playID == 0) {
+        [self setSM1PlayerVolume:percent];
+    }else if (playID == 1){
+        [self setSM2PlayerVolume:percent];
+    }else if (playID == 2){
+        [self setSM3PlayerVolume:percent];
+    }else if (playID == 3){
+        [self setSM4PlayerVolume:percent];
+    }else if (playID == 4){
+        [self setSM5PlayerVolume:percent];
+    }
+}
 
 
 #pragma mark AVAudioSession

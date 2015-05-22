@@ -78,7 +78,7 @@
 - (void)initMyknob{
     self.rotaryKnob.interactionStyle = MHRotaryKnobInteractionStyleRotating;
     self.rotaryKnob.scalingFactor = 1.5;
-    self.rotaryKnob.maximumValue = 270;
+    self.rotaryKnob.maximumValue = 360;
     self.rotaryKnob.minimumValue = 0;
     self.rotaryKnob.value = 0;
     self.rotaryKnob.defaultValue = self.rotaryKnob.value;
@@ -164,12 +164,16 @@
     
     NSRange rangeAg;
     rangeAg=[_msg rangeOfString:@"ag"];
-    if((rangeAg.location+4)!=NSNotFound){
-        NSString *strAg = [_msg substringWithRange:NSMakeRange(rangeAg.location+2,rangeAg.location+4)];
-        float floatAg = [strAg floatValue];
-        NSLog(@"floatA is %f",floatAg);
-        [engine rotaryMM:floatAg];
+    if ((rangeAg.location)!=NSNotFound) {
+        if((rangeAg.location+4)!=NSNotFound){
+            NSString *strAg = [_msg substringWithRange:NSMakeRange(rangeAg.location+2,rangeAg.location+4)];
+            float floatAg = [strAg floatValue];
+            NSLog(@"floatA is %f",floatAg);
+            _rotaryKnob.value = floatAg;
+            [engine rotaryMM:floatAg];
+        }
     }
+    
 }
 
 - (IBAction)connectAction:(id)sender {
@@ -204,7 +208,6 @@
             _connectView.hidden = YES;
             _mainView.hidden = NO;
             _menuView.hidden = NO;
-            
         }
     }
 }

@@ -292,21 +292,21 @@
     NSString *audioFile;
     NSString *audioName;
     if ([audioID isEqual:@"mM1"]){
-        audioName = @"Black Light.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"mM2"]){
-        audioName = @"DPH.wav";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"mM3"]){
-        audioName = @"TTU (Too Turnt Up).mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"sM1"]){
-        audioName = @"1.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"sM2"]){
-        audioName = @"2.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"sM3"]){
-        audioName = @"3.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"sM4"]){
-        audioName = @"4.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"sM5"]){
-        audioName = @"5.mp3";
+        audioName = @"guitdo.wav";
     }else if([audioID isEqual:@"pE1"]){
         audioName = @"bass_guitar1.wav";
     }else if([audioID isEqual:@"pE2"]){
@@ -846,16 +846,43 @@
     float rNum = fmodf(agVal, 60.0);
     float playID = floorf(agVal/60.0);
     float percent = (30.0-rNum)/30.0;
+    NSLog(@"playID:%f, percent:%f",playID,percent);
     if (playID == 0) {
         [self setSM1PlayerVolume:percent];
+        [self setSM2PlayerVolume:0];
+        [self setSM3PlayerVolume:0];
+        [self setSM4PlayerVolume:0];
+        [self setSM5PlayerVolume:0];
     }else if (playID == 1){
+        [self setSM1PlayerVolume:0];
         [self setSM2PlayerVolume:percent];
+        [self setSM3PlayerVolume:0];
+        [self setSM4PlayerVolume:0];
+        [self setSM5PlayerVolume:0];
     }else if (playID == 2){
+        [self setSM1PlayerVolume:0];
+        [self setSM2PlayerVolume:0];
         [self setSM3PlayerVolume:percent];
+        [self setSM4PlayerVolume:0];
+        [self setSM5PlayerVolume:0];
     }else if (playID == 3){
+        [self setSM1PlayerVolume:0];
+        [self setSM2PlayerVolume:0];
+        [self setSM3PlayerVolume:0];
         [self setSM4PlayerVolume:percent];
+        [self setSM5PlayerVolume:0];
     }else if (playID == 4){
+        [self setSM1PlayerVolume:0];
+        [self setSM2PlayerVolume:0];
+        [self setSM3PlayerVolume:0];
+        [self setSM4PlayerVolume:0];
         [self setSM5PlayerVolume:percent];
+    }else{
+        [self setSM1PlayerVolume:0];
+        [self setSM2PlayerVolume:0];
+        [self setSM3PlayerVolume:0];
+        [self setSM4PlayerVolume:0];
+        [self setSM5PlayerVolume:0];
     }
 }
 

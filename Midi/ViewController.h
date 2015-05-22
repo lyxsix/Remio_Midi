@@ -26,6 +26,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *mtBtn;
 @property (strong, nonatomic) IBOutlet UIButton *seBtn;
 
+@property (strong, nonatomic) IBOutlet UIImageView *albumImage;
 
 - (IBAction)connectAction:(id)sender;
 - (IBAction)playMT1:(id)sender;

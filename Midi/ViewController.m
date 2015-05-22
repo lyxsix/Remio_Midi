@@ -46,12 +46,36 @@
 }
 
 - (IBAction)playMT1:(id)sender {
+    [engine toogleMM1];
+    [_albumImage setImage:[UIImage imageNamed:@"black light-01.png"]];
+    if (engine.mM2isPlaying) {
+        [engine.mM2Player stop];
+    }
+    if (engine.mM3isPlaying) {
+        [engine.mM3Player stop];
+    }
 }
 
 - (IBAction)playMT2:(id)sender {
+    [_albumImage setImage:[UIImage imageNamed:@"ttu-01.png"]];
+    [engine toogleMM2];
+    if (engine.mM1isPlaying) {
+        [engine.mM1Player stop];
+    }
+    if (engine.mM3isPlaying) {
+        [engine.mM3Player stop];
+    }
 }
 
 - (IBAction)playMT3:(id)sender {
+    [_albumImage setImage:[UIImage imageNamed:@"dph-01.png"]];
+    [engine toogleMM3];
+    if (engine.mM1isPlaying) {
+        [engine.mM1Player stop];
+    }
+    if (engine.mM2isPlaying) {
+        [engine.mM2Player stop];
+    }
 }
 
 - (IBAction)toMTView:(id)sender {
@@ -134,6 +158,7 @@
 {
     self.blunoDev = dev;
     _isConnect = YES;
+    NSLog(@"Ble Connected");
 }
 
 -(void)didDisconnectDevice:(DFBlunoDevice*)dev
@@ -164,15 +189,16 @@
     
     NSRange rangeAg;
     rangeAg=[_msg rangeOfString:@"ag"];
-    if ((rangeAg.location)!=NSNotFound) {
-        if((rangeAg.location+4)!=NSNotFound){
-            NSString *strAg = [_msg substringWithRange:NSMakeRange(rangeAg.location+2,rangeAg.location+4)];
-            float floatAg = [strAg floatValue];
+    if (_msg.length>(rangeAg.location+4)) {
+        NSString *strAg = [_msg substringWithRange:NSMakeRange(rangeAg.location+2,3)];
+        float floatAg = [strAg floatValue];
+        if (floatAg<360.0) {
             NSLog(@"floatA is %f",floatAg);
             _rotaryKnob.value = floatAg;
             [engine rotaryMM:floatAg];
         }
     }
+
     
 }
 

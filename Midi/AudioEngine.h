@@ -30,7 +30,7 @@
 */
 
 @import Foundation;
-
+@import AVFoundation;
 // effect strip 1 - Marimba Player -> Delay -> Mixer
 // effect strip 2 - Drum Player -> Distortion -> Mixer
 
@@ -43,7 +43,9 @@
 @end
 
 @interface AudioEngine : NSObject
-
+@property (nonatomic,strong) AVAudioPlayerNode *mM1Player;
+@property (nonatomic,strong) AVAudioPlayerNode *mM2Player;
+@property (nonatomic,strong) AVAudioPlayerNode *mM3Player;
 
 
 //new main melody and sub melody isPlaying

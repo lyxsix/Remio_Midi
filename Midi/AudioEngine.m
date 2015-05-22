@@ -26,9 +26,9 @@
     AVAudioEngine       *_engine;
     
     //new PlayerNode and PCMBuffer
-    AVAudioPlayerNode   *_mM1Player;
-    AVAudioPlayerNode   *_mM2Player;
-    AVAudioPlayerNode   *_mM3Player;
+//    AVAudioPlayerNode   *_mM1Player;
+//    AVAudioPlayerNode   *_mM2Player;
+//    AVAudioPlayerNode   *_mM3Player;
     AVAudioPlayerNode   *_sM1Player;
     AVAudioPlayerNode   *_sM2Player;
     AVAudioPlayerNode   *_sM3Player;

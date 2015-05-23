@@ -176,17 +176,104 @@
 {
     _msg = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSLog(@"%@",_msg);
-//    BOOL isa0 = ([_msg rangeOfString:@"a0"].location !=NSNotFound);
-//    if (isa0) {
-//        if (_audioPlayer) {
-//            if ((_audioPlayer.volume -0.1)>0) {
-//                _audioPlayer.volume -= 0.1;
-//            }else{
-//                _audioPlayer.volume = 0;
-//            }
-//            NSLog(@"_audioPlayer.volume %f",_audioPlayer.volume);
-//        }
-//    }
+    BOOL isa0 = ([_msg rangeOfString:@"a0"].location !=NSNotFound);
+    if (isa0) {
+        [engine touchTE1];
+    }
+    BOOL isa1 = ([_msg rangeOfString:@"a1"].location !=NSNotFound);
+    if (isa1) {
+        [engine touchTE2];
+    }
+    BOOL isa2 = ([_msg rangeOfString:@"a2"].location !=NSNotFound);
+    if (isa2) {
+        [engine touchTE3];
+    }
+    BOOL isa3 = ([_msg rangeOfString:@"a3"].location !=NSNotFound);
+    if (isa3) {
+        [engine touchTE4];
+    }
+    BOOL isb0 = ([_msg rangeOfString:@"b0"].location !=NSNotFound);
+    if (isb0) {
+        [engine touchTE5];
+    }
+    BOOL isb1 = ([_msg rangeOfString:@"b1"].location !=NSNotFound);
+    if (isb1) {
+        [engine touchTE6];
+    }
+    BOOL isb2 = ([_msg rangeOfString:@"b2"].location !=NSNotFound);
+    if (isb2) {
+        [engine touchTE7];
+    }
+    BOOL isb3 = ([_msg rangeOfString:@"b3"].location !=NSNotFound);
+    if (isb3) {
+        NSLog(@"Play b3");
+    }
+    BOOL isc0 = ([_msg rangeOfString:@"c0"].location !=NSNotFound);
+    if (isc0) {
+        NSLog(@"Play c0");
+    }
+    BOOL isc1 = ([_msg rangeOfString:@"c1"].location !=NSNotFound);
+    if (isc1) {
+        NSLog(@"Play c1");
+    }
+    BOOL isc2 = ([_msg rangeOfString:@"c2"].location !=NSNotFound);
+    if (isc2) {
+        NSLog(@"Play c2");
+    }
+    BOOL isc3 = ([_msg rangeOfString:@"c3"].location !=NSNotFound);
+    if (isc3) {
+        NSLog(@"Play c3");
+    }
+    
+    if ([_msg rangeOfString:@"af1"].location !=NSNotFound) {
+        [engine pressPE1:0.25];
+    }
+    
+    if ([_msg rangeOfString:@"af2"].location !=NSNotFound) {
+        [engine pressPE1:0.5];
+    }
+    
+    if ([_msg rangeOfString:@"af3"].location !=NSNotFound) {
+        [engine pressPE1:0.75];
+    }
+    
+    if ([_msg rangeOfString:@"af4"].location !=NSNotFound) {
+        [engine pressPE1:1.0];
+    }
+    
+    
+    if ([_msg rangeOfString:@"bf1"].location !=NSNotFound) {
+        [engine pressPE2:0.25];
+    }
+    
+    if ([_msg rangeOfString:@"bf2"].location !=NSNotFound) {
+        [engine pressPE2:0.5];
+    }
+    
+    if ([_msg rangeOfString:@"bf3"].location !=NSNotFound) {
+        [engine pressPE2:0.75];
+    }
+    
+    if ([_msg rangeOfString:@"bf4"].location !=NSNotFound) {
+        [engine pressPE2:1.0];
+    }
+    
+    if ([_msg rangeOfString:@"cf1"].location !=NSNotFound) {
+        [engine pressPE3:0.25];
+    }
+    
+    if ([_msg rangeOfString:@"cf2"].location !=NSNotFound) {
+        [engine pressPE3:0.5];
+    }
+    
+    if ([_msg rangeOfString:@"cf3"].location !=NSNotFound) {
+        [engine pressPE3:0.75];
+    }
+    
+    if ([_msg rangeOfString:@"cf4"].location !=NSNotFound) {
+        [engine pressPE3:1.0];
+    }
+    
     
     NSRange rangeAg;
     rangeAg=[_msg rangeOfString:@"ag"];
@@ -199,7 +286,7 @@
             [engine rotaryMM:floatAg];
         }
     }
-
+    
     
 }
 

@@ -295,7 +295,7 @@
     for (int i = 0; i < nCount; i++) {
         DFBlunoDevice* device   = [self.aryDevices objectAtIndex:i];
         NSLog(@"NO: %li Device Name is %@",(long)nCount,device.name);
-        if ([device.name  isEqual: @"BlunoV2.0"]) {
+        if ([device.name  isEqual: @"BlunoV1.8"]) {
             NSLog(@"Find device in aryDevices");
             if (self.blunoDev == nil)
             {
